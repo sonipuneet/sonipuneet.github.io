@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
    <title>Puneet Soni</title>
    <link href="images/home.jpg" rel="icon" sizes="240x240" type="image/jpg">
    <meta name="author" content="Puneet Soni">
@@ -8,7 +7,9 @@
    <meta charset="utf-8">
    <meta content="width=device-width,initial-scale=1" name="viewport" >
    <link href=assets/css/main.css rel=stylesheet>
-   <link href=assets/css/custom_style.css rel=stylesheet>
+   <link href=assets/css/custom_style.css rel=stylesheet> 
+   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> 
    <noscript>
       <link href=assets/css/noscript.css rel=stylesheet>
    </noscript>
@@ -43,9 +44,25 @@
       </nav>
       <div id=main>
          <article class=panel id=me>
-            <header>
-               <h1>Puneet Soni</h1>
-               <p>Software Developer</p>
+            <header>        
+			<!--Adding Typed.js for text-->           
+			   <h1 class = t1></h1>
+			   
+
+				<script>$('.t1').typeIt({
+					 strings: ["Puneet Soni","Software Developer"],
+					 speed: 80,
+					 starDelay : 250,
+					 breakLines: false,
+					 loop : true,
+					 loopDelay : 950,
+					 cursor : true,
+					 lifeLike : true,
+					 cursorSpeed : 1000,
+					 autoStart: false
+				}); 
+				   </script>
+				   
             </header>
             <a href=#work class="jumplink pic">
             <span class="icon arrow fa-chevron-right"title="See my work">
@@ -168,6 +185,10 @@
    <script src=assets/js/skel-viewport.min.js></script>
    <script src=assets/js/util.js></script>
    <script src=assets/js/main.js></script>
+   <!-- <script src=assets/js/typeit.js></script>
+   <script src=assets/js/typeit.min.js></script> -->
+   
+   
 </body>
 </html>
 
