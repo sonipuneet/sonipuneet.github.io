@@ -81,7 +81,7 @@ h2,h4 {
 }
 
 .panel {
-  border: 1px solid #f4511e;
+  border: 2px solid #1b0c08;
   border-radius: 0!important;
   transition: box-shadow .5s;
 }
@@ -97,7 +97,7 @@ h2,h4 {
 
 .panel-heading {
   color: #fff!important;
-  background-color: #f4511e!important;
+  background-color: #1b0c08!important;
   padding: 25px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0;
@@ -121,7 +121,7 @@ h2,h4 {
 
 .panel-footer .btn {
   margin: 15px 0;
-  background-color: #f4511e;
+  background-color: #1b0c08;
   color: #fff;
 }
 
