@@ -1,14 +1,13 @@
 <template>
     <div class="ps-footer-bg">
         <div class="ps-footer-text">
-            <p class=ps-footer-p-1>Copyright © Puneet Soni 2022. All Rights Reserved.</p>
+            <p class=ps-footer-p-1>Made with Love by Me.</p>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    
 }
 </script>
 
