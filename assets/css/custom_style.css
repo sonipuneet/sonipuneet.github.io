@@ -367,3 +367,431 @@ select:focus-visible {
     padding: 20px;
   }
 }
+
+/* ===================================
+   GRANULAR MOBILE MEDIA QUERIES
+   =================================== */
+
+/* Extra Small Phones (up to 320px) */
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    letter-spacing: -0.01em;
+  }
+
+  h3, h4 {
+    font-size: 0.95rem;
+  }
+
+  #wrapper {
+    padding: 4px;
+  }
+
+  #nav {
+    margin: 4px 0 6px;
+    padding: 4px 0;
+  }
+
+  #nav a {
+    font-size: 1.5em;
+    margin: 2px;
+    padding: 6px;
+    min-width: 36px;
+    min-height: 36px;
+  }
+
+  .panel {
+    padding: 10px;
+    margin: 0 0 5px 0;
+  }
+
+  .panel header {
+    padding-top: 0.5em;
+  }
+
+  #me header > h1 {
+    font-size: 1.5em;
+  }
+
+  #me header > p {
+    font-size: 1em;
+  }
+
+  .button, button, input[type="submit"] {
+    padding: 10px 16px;
+    font-size: 14px;
+    min-height: 40px;
+  }
+
+  form input[type="email"],
+  form input[type="text"],
+  form textarea {
+    padding: 10px 12px;
+    font-size: 14px;
+    min-height: 40px;
+  }
+
+  #me .pic img {
+    width: 100%;
+  }
+
+  h4 a {
+    font-size: 0.9em;
+  }
+}
+
+/* Small Phones (321px - 480px) */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  body {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3, h4 {
+    font-size: 1rem;
+  }
+
+  #wrapper {
+    padding: 5px;
+  }
+
+  #nav {
+    margin: 5px 0 8px;
+    padding: 6px 0;
+  }
+
+  #nav a {
+    font-size: 1.7em;
+    margin: 3px;
+    padding: 8px;
+    min-width: 40px;
+    min-height: 40px;
+  }
+
+  .panel {
+    padding: 12px;
+    margin: 0 0 6px 0;
+  }
+
+  .panel header {
+    padding-top: 0.75em;
+  }
+
+  #me header > h1 {
+    font-size: 1.7em;
+  }
+
+  #me header > p {
+    font-size: 1.1em;
+  }
+
+  .button, button, input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 15px;
+    min-height: 42px;
+  }
+
+  form input[type="email"],
+  form input[type="text"],
+  form textarea {
+    padding: 12px 14px;
+    font-size: 15px;
+    min-height: 44px;
+  }
+}
+
+/* Large Phones (481px - 736px) */
+@media screen and (min-width: 481px) and (max-width: 736px) {
+  body {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3, h4 {
+    font-size: 1.05rem;
+  }
+
+  #wrapper {
+    padding: 6px;
+  }
+
+  #nav {
+    margin: 6px 0 10px;
+    padding: 6px 0;
+  }
+
+  #nav a {
+    font-size: 1.8em;
+    margin: 3px;
+    padding: 8px;
+    min-width: 42px;
+    min-height: 42px;
+  }
+
+  .panel {
+    padding: 15px;
+    margin: 0 0 8px 0;
+  }
+
+  .panel header {
+    padding-top: 0.8em;
+  }
+
+  #me header > h1 {
+    font-size: 1.9em;
+  }
+
+  #me header > p {
+    font-size: 1.15em;
+  }
+
+  .button, button, input[type="submit"] {
+    padding: 11px 22px;
+    font-size: 15px;
+    min-height: 44px;
+  }
+
+  form input[type="email"],
+  form input[type="text"],
+  form textarea {
+    padding: 13px 15px;
+    font-size: 15px;
+    min-height: 46px;
+  }
+}
+
+/* Tablets (737px - 1024px) */
+@media screen and (min-width: 737px) and (max-width: 1024px) {
+  body {
+    font-size: 14pt;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  #wrapper {
+    width: 90%;
+    max-width: 900px;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  .panel {
+    width: 100%;
+    padding: 2.5em 2em;
+  }
+
+  #me {
+    height: 18em;
+  }
+
+  #nav a {
+    font-size: 2.2em;
+  }
+}
+
+/* Desktop (1025px+) */
+@media screen and (min-width: 1025px) {
+  #wrapper {
+    width: 45em;
+    max-width: 1200px;
+  }
+
+  #main {
+    width: 45em;
+    max-width: 1200px;
+  }
+
+  .panel {
+    width: 45em;
+    max-width: 1200px;
+  }
+}
+
+/* ===================================
+   MOBILE-SPECIFIC LAYOUT FIXES
+   =================================== */
+
+@media screen and (max-width: 736px) {
+  /* Stack form fields vertically */
+  .row > * {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* Better work section spacing */
+  #work h4 {
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  #work h4 a {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  #work h4:last-child a {
+    border-bottom: none;
+  }
+
+  /* Talks section mobile improvements */
+  #talks h4 {
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  /* Improve profile image area */
+  #me .pic {
+    height: auto;
+    min-height: 200px;
+  }
+
+  #me .pic img {
+    min-height: 200px;
+    object-fit: cover;
+  }
+
+  /* Mobile nav bar improvements */
+  #nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  #nav a {
+    flex: 0 0 auto;
+  }
+
+  /* Button full width on very small screens */
+  @media screen and (max-width: 400px) {
+    .button, button, input[type="submit"] {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+/* ===================================
+   ORIENTATION-SPECIFIC STYLES
+   =================================== */
+
+/* Landscape phones */
+@media screen and (max-width: 736px) and (orientation: landscape) {
+  #me {
+    min-height: auto;
+  }
+
+  #me .pic {
+    max-height: 200px;
+    overflow: hidden;
+  }
+
+  #me .pic img {
+    max-height: 200px;
+  }
+
+  .panel {
+    padding: 12px;
+  }
+}
+
+/* Portrait tablets */
+@media screen and (min-width: 737px) and (max-width: 1024px) and (orientation: portrait) {
+  #wrapper {
+    width: 95%;
+  }
+
+  .panel {
+    padding: 2em 1.5em;
+  }
+}
+
+/* ===================================
+   PRINT STYLES
+   =================================== */
+
+@media print {
+  #nav, #main, .button, .jumplink {
+    display: none;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  .panel {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+}
+
+/* ===================================
+   DARK MODE SUPPORT
+   =================================== */
+
+@media (prefers-color-scheme: dark) {
+  /* Only apply if site doesn't have its own dark mode */
+  body {
+    color-scheme: dark;
+  }
+}
+
+/* ===================================
+   HIGH DPI SCREEN OPTIMIZATIONS
+   =================================== */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
